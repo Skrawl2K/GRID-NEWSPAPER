@@ -178,6 +178,7 @@ h1 span {
 .ikeaSize {
     width: 100%;
     padding: 10px 10px;
+    filter: grayscale(100%);
 }
 
 /* ============== FOOTER =================== */
