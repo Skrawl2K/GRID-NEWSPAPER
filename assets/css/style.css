@@ -137,6 +137,7 @@ h1 span {
     grid-column: 1/2;
     grid-row: 2/3;
     border: 5px double #000;
+    margin-top: -1.5rem;
 }
 
 .gridB2 {
@@ -150,6 +151,8 @@ h1 span {
     padding-top: 5rem;
     margin-bottom: -20rem;
     height: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .sideText {
