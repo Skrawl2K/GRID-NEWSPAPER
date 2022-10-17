@@ -115,8 +115,9 @@ h1 span {
     height: 80vh;
     padding-bottom: 5rem;
 }
-.fig{
-margin-top: -3.5rem;
+
+.fig {
+    margin-top: -3rem;
 }
 
 .gridB {
@@ -126,7 +127,7 @@ margin-top: -3.5rem;
     grid-template-columns: 15%;
     grid-template-rows: 15% 40% 30% 30%;
     gap: 1.5rem;
-    margin-top: -121rem;
+    margin-top: -118rem;
     padding-bottom: 10rem;
     margin-right: -2rem;
 
@@ -147,7 +148,8 @@ margin-top: -3.5rem;
 
 .sideTextHeader {
     padding-top: 5rem;
-    margin-bottom: -18rem;
+    margin-bottom: -20rem;
+    height: 5rem;
 }
 
 .sideText {
