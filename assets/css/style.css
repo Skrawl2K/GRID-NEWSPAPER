@@ -1,0 +1,178 @@
+/* ========== ASSETS ================= */
+
+/* FARBEN: rgb(233, 233, 224) , #333 */
+
+@font-face {
+    font-family: CG-Bold;
+    src: url("../fonts/CormorantGaramond-Bold.ttf");
+}
+
+@font-face {
+    font-family: CG-Regular;
+    src: url("../fonts/CormorantGaramond-Regular.ttf");
+}
+
+@font-face {
+    font-family: CG-Light;
+    src: url("../fonts/CormorantGaramond-Light.ttf");
+}
+
+/* ============== GENERELL =================== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #333;
+    background-color: rgb(233, 233, 224);
+
+}
+
+body {
+    margin: 0 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.test1 {
+    position: relative;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+/* ============== HEADER =================== */
+h1 {
+    text-align: center;
+    font-family: CG-Bold;
+    font-size: 3rem;
+}
+
+h1 span {
+    font-family: CG-Bold;
+    font-size: 3rem;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px double #000;
+    border-bottom: 5px double #000;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+}
+
+.BB {
+    margin-bottom: 2rem;
+}
+
+/* ============== MAIN =================== */
+
+
+.gridA {
+    display: grid;
+    grid-template-columns: 20% 20% 44%;
+    grid-template-rows: 10% 20% 25%;
+    gap: 1rem;
+}
+
+.gridA1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.gridA2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.gridA3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.gridA4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.gridA5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.gridA6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.gridA7 {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    height: 80vh;
+    padding-bottom: 5rem;
+}
+.fig{
+margin-top: -3.5rem;
+}
+
+.gridB {
+    display: grid;
+    justify-content: flex-end;
+    align-content: flex-start;
+    grid-template-columns: 15%;
+    grid-template-rows: 15% 40% 30% 30%;
+    gap: 1.5rem;
+    margin-top: -121rem;
+    padding-bottom: 10rem;
+    margin-right: -2rem;
+
+}
+
+.gridB1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 5px double #000;
+}
+
+.gridB2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 5px double #000;
+    padding-top: 2rem;
+}
+
+.sideTextHeader {
+    padding-top: 5rem;
+    margin-bottom: -18rem;
+}
+
+.sideText {
+    text-align: center;
+}
+
+.highlight {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.highlight2 {
+    font-size: 5rem;
+    padding-top: 1.5rem;
+}
+
+.gridB3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border: 5px double #000;
+}
+
+.ikeaSize {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+/* ============== FOOTER =================== */
